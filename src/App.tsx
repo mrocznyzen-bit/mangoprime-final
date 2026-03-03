@@ -1220,6 +1220,7 @@ export default function App() {
                 className="space-y-5" 
                 onSubmit={handleSubmit}
                 name="contact"
+                method="POST"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
               >
